@@ -1,0 +1,218 @@
+body {
+  background-color: rgb(0 31 58);
+  padding: 0 10rem;
+}
+
+.divider {
+  border-top: 0.5px solid rgb(255, 255, 255);
+  margin: 2rem 0;
+  }
+
+/* Titles */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: monospace;
+}
+
+/* Texts */
+.text-count {
+  text-align: end;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* Containers */
+.container-btn-option {
+  display: flex;
+  align-items: center;
+}
+
+.container-text {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-text .text-score {
+  width: 10rem;
+  text-align: center;
+}
+
+/* Buttons  */
+.btn-add {
+  color: rgb(0 31 58);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  height: 2em;
+  width: 7em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+}
+
+.container-btn-option {
+  display: flex;
+  align-items: center;
+}
+
+.btn-option {
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(0 31 58);
+  border-radius: 10px;
+  border-style: none;
+  padding: 0;
+}
+
+.btn-option:hover, .btn-add:hover {
+  cursor: pointer;
+}
+
+.btn-option .deleteIcon {
+  color: rgb(221, 0, 0);
+}
+
+.btn-option .editIcon {
+  color: rgb(255, 255, 255);
+}
+
+/* Games section */
+.games-container {
+  max-width: 34rem;
+  border: #ffffff 2px solid;
+  border-radius: 10px;
+}
+
+.games-container legend {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+.games-form {
+  max-width: 20rem;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.games-form input {
+  height: 2rem;
+  margin: 0 1rem;
+}
+
+.games-form p {
+  color: #ffffff;
+  margin: auto;
+}
+
+.games-list {
+  width: 90%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.games-list li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.games-list li p {
+  font-size: large;
+  font-weight: 500;
+  font-family: system-ui;
+  color: #ffffff;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  z-index: 200;
+  top: 40%;
+  left: 40%;
+  width: 30rem;
+  background: white;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.modal h1 {
+  color: rgb(0 31 58);
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+.container-modal-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-modal-input {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-modal-input label {
+  font-size: 1.2rem;
+  color: rgb(0 31 58);
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.container-modal-input input {
+  width: 2rem;
+  font: inherit;
+  resize: none;
+  margin: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(0 31 58);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modal-actions button {
+  height: 2rem;
+  font-size: large;
+  border-radius: 8px;
+  border-style: none;
+  color: #ffffff;
+}
+
+.modal-actions button:hover {
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: #b90000;
+}
+
+.btn-confirm {
+  background-color: #1a8100;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}

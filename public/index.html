@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babyfoot Manager</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
+  </head>
+  <body>
+    <h1>Babyfoot Manager</h1>
+    <fieldset id="games-container" class="games-container">
+      <legend>Parties</legend>
+      <form id="games-form" class="games-form">
+        <input placeholder="Joueur 1" name="player1" type="text">
+        <p>VS</p>
+        <input placeholder="Joueur 2" name="player2" type="text">
+        <button id="btn-add" class="btn-add" type="submit">Ajouter</button>
+      </form>
+      <hr class="divider">
+      <ul id="games-list" class="games-list" >
+      </ul>
+    </fieldset>
+    <script type="text/javascript" src="../src/index.js"></script>
+  </body>
+</html>
