@@ -55,7 +55,7 @@ Postgresql
   npm start
   ```
    
-7. Init the database
+7. Init the database (in another terminal)
   ```sh
   yarn db:init
   ```
