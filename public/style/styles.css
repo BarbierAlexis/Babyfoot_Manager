@@ -1,6 +1,6 @@
 body {
   background-color: rgb(0 31 58);
-  padding: 0 10rem;
+  padding: 0 2rem;
 }
 
 .divider {
@@ -8,7 +8,6 @@ body {
   margin: 2rem 0;
   }
 
-/* Titles */
 h1 {
   text-align: center;
   color: #ffffff;
@@ -19,6 +18,15 @@ h1 {
 /* Texts */
 .text-count {
   text-align: end;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.text-empty-games {
+  margin: 5rem 0;
+  text-align: center;
   font-size: 1.2rem;
   color: #fff;
   font-weight: bold;
@@ -83,6 +91,7 @@ h1 {
 
 /* Games section */
 .games-container {
+  margin-top: 5rem;
   max-width: 34rem;
   border: #ffffff 2px solid;
   border-radius: 10px;
@@ -96,7 +105,6 @@ h1 {
 }
 
 .games-form {
-  max-width: 20rem;
   display: flex;
   margin-top: 2rem;
 }
@@ -104,6 +112,7 @@ h1 {
 .games-form input {
   height: 2rem;
   margin: 0 1rem;
+  min-width: 8rem;
 }
 
 .games-form p {
@@ -172,7 +181,7 @@ h1 {
 }
 
 .container-modal-input input {
-  width: 2rem;
+  width: 2.4rem;
   font: inherit;
   resize: none;
   margin: 1rem;

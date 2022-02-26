@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babyfoot Manager</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../src/styles.css">
+    <link rel="stylesheet" href="./style/styles.css" type="text/css"> 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.0.0/css/all.css">
   </head>
   <body>
@@ -14,7 +14,7 @@
       <legend>Parties</legend>
       <form id="games-form" class="games-form">
         <input placeholder="Joueur 1" name="player1" type="text">
-        <p>VS</p>
+        <p><b>VS</b></p>
         <input placeholder="Joueur 2" name="player2" type="text">
         <button id="btn-add" class="btn-add" type="submit">Ajouter</button>
       </form>
@@ -22,6 +22,7 @@
       <ul id="games-list" class="games-list" >
       </ul>
     </fieldset>
-    <script type="text/javascript" src="../src/index.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
